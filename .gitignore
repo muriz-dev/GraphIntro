@@ -1,0 +1,57 @@
+# --- JetBrains CLion IDE ---
+.idea/
+*.iws
+*.iml
+*.ipr
+cmake-build-*/
+cmake-build-debug/
+cmake-build-release/
+
+# --- Build files ---
+build/
+out/
+x64/
+x86/
+*.sln
+*.vcxproj*
+*.user
+*.suo
+
+# --- Executables & binaries ---
+bin/
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.o
+*.obj
+*.d
+
+# --- Cache & temp files ---
+*.cache
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# --- CMake ---
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# --- Profiling & logs ---
+*.log
+*.tlog
+*.pid
+
+# --- Testing ---
+CTestTestfile.cmake
+Testing/
